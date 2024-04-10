@@ -9,8 +9,6 @@
 
 int main ()
 {
-    FILE* Archivo;
-    Archivo = fopen ("stdout.txt","w");
-    fprintf (Archivo, "Hello, World!");
+    printf ("Hello, World!");
     return 0;
 }
